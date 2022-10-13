@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body, a, input{
+    font-family: 'Poppins', sans-serif;
+}
+
+.create{
+    background: #FBFBFB;
+}
+
+.container{
+    max-width: 1440px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.crate__zone{
+    position: relative;
+    padding: 64px 0;
+}
+
+.logIn{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    gap: 2px;
+}
+
+.logIn__link{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    text-decoration: none;
+}
+
+.logIn__link span{
+    text-decoration: underline;
+    color: #111111;
+}
+
+.logIn__forgot{
+    color: #666;
+}
+
+.crate__box{
+    max-width: 660px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.create__circle{
+    width: 64px;
+    height: 64px;
+    background: #C4C4C4;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+
+.form__zone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px;
+    background: #FFFFFF;
+    border: 1px solid rgba(102, 102, 102, 0.3);
+    border-radius: 32px;
+    margin-top: 40px;
+}
+
+.form__title{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #333333;
+}
+
+.form__desc{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+    max-width: 360px;
+    text-align: center;
+}
+
+.form{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    gap: 40px;
+}
+
+.form__label{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+    gap: 7px;
+    width: 100%;
+}
+
+input{
+    display: block;
+    border: 1px solid #666666;
+    border-radius: 12px;
+    width: 100%;
+    padding: 15px 24px;
+}
+
+.form__box{
+    width: 100%;
+}
+
+.form__tel-info{
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(102, 102, 102, 0.8);
+    margin-top: 5px;
+}
+
+.form__label span{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.form__list{
+    margin-top: 12px;
+    columns: 2;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(102, 102, 102, 0.6);
+    padding-left: 16px;
+}
+
+.list__item{
+   margin-bottom: 8px;
+}
+
+.form__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #fff;
+    background: #111111;
+    border-radius: 40px;
+}
+
+.form__info{
+    font-size: 15px;
+    line-height: 22px;
+    color: #333333;
+    margin-top: 12px;
+}
+
+.form__link{
+    color: #111111;
+
+}
